@@ -1,0 +1,152 @@
+// Fonts
+$font-text: 'Modern';
+$font-title: 'Goose';
+
+// Colors
+$color-primary: #BE0007;
+$color-primary-light: #e41e25;
+$color-light: #fbfbfb;
+$color-dark: #303030;
+$color-secondary: #FFA500;
+$color-secondary-light: #f7dba9;
+$color-secondary-dark: #905F02;
+$color-body: #afe0f5;
+$color-back: #E2F5FD;
+
+$color-text: $color-dark;
+$color-text-inverse: $color-light;
+$color-placehoder: rgba(0, 0, 0, 0.3);
+
+$color-default: #64c1e8;
+$color-default-light: #6fcdf5;
+
+$color-success: #019908;
+$color-success-light: #4dc242;
+
+$color-warning: $color-secondary;
+$color-warning-light: #ffb937;
+
+$color-danger: $color-primary;
+$color-danger-light: $color-primary-light;
+
+$color-disabled: #888888;
+$color-disabled-light: #aaaaaa;
+
+// Shadows
+$shadow-1: rgba(0, 0, 0, 0.1);
+$shadow-2: rgba(0, 0, 0, 0.2);
+$shadow-3: rgba(0, 0, 0, 0.3);
+$shadow-4: rgba(0, 0, 0, 0.4);
+$shadow-5: rgba(0, 0, 0, 0.5);
+$shadow-7: rgba(0, 0, 0, 0.7);
+
+$glow-5: rgba(255, 255, 255, 0.5);
+$glow-9: rgba(255, 255, 255, 0.9);
+
+// Borders
+$radius-rect: 40px 40px 10px 10px/10px 10px 40px 40px;
+
+/* -------------------------- */
+
+
+
+// Body
+$body-bg: #afe0f5;
+$content-bg: #E2F5FD;
+
+// Avatar
+$avatar-border: #FFA500;
+$avatar-bg: #905F02;
+$avatar-shadow: rgba(0, 0, 0, 0.2);
+$avatar: #fbfbfb;
+
+// Text
+$font: 'Modern';
+$font-title: 'Goose';
+$text: #303030;
+$text-inverse: #fbfbfb;
+$text-border: #fbfbfb;
+$text-shadow: rgba(0, 0, 0, 0.5);
+
+// Input
+$input-border: #FFA500;
+$input-bg: #905F02;
+$input-color: #fbfbfb;
+$input-shadow: rgba(0, 0, 0, 0.2);
+
+$modal-border: #FFA500;
+$modal-bg: #f7dba9;
+$modal-shadow: rgba(0, 0, 0, 1);
+$modal-inset-shadow: rgba(0, 0, 0, 0.4);
+
+$virus-bg: #f7dba9;
+$virus-border: #fbfbfb;
+$virus-shadow: rgba(0, 0, 0, 0.4);
+
+// Button
+$button-text: #fbfbfb;
+$button-glow: rgba(255, 255, 255, 0.5);
+
+// Colors
+$title: #BE0007;
+$title-border: #fbfbfb;
+$title-shadow: rgba(0, 0, 0, 0.2);
+
+$default: #64c1e8;
+$default-second: #6fcdf5;
+
+$primary: #BE0007;
+$primary-second: #e41e25;
+$primary-bg: $primary;
+$primary-border: $primary;
+$primary-hover: #ca563c;
+
+$secondary: #ddc5a2;
+$secondary-bg: rgba(221, 197, 162, 0.1);
+$secondary-border: $secondary;
+$secondary-hover: rgba(221, 197, 162, 0.3);
+
+$white: #fbfbfb;
+$white-bg: rgba(255, 255, 255, 0.1);
+$white-border: $white;
+$white-hover: rgba(255, 255, 255, 0.3);
+
+$green: #00A437;
+$green-bg: rgba(74, 104, 84, 0.2);
+$green-border: $green;
+$green-hover: rgba(74, 104, 84, 0.2);
+
+$red: #DE425B;
+$red-bg: rgba(222, 66, 91, 0.1);
+$red-border: $red;
+$red-hover: rgba(222, 66, 91, 0.3);
+
+$blue: #409eff;
+$blue-bg: rgba(64, 158, 255, 0.1);
+$blue-border: $blue;
+$blue-hover: rgba(64, 158, 255, 0.3);
+
+$yellow: #e6a23c;
+$yellow-bg: rgba(230, 162, 60, 0.1);
+$yellow-border: $yellow;
+$yellow-hover: rgba(230, 162, 60, 0.3);
+
+$success: #019908;
+$success-second: #4dc242;
+
+$danger: #BE0007;
+$danger-second: #e41e25;
+
+$warning: #FFA500;
+$warning-second: #ffb937;
+
+$info: #64c1e8;
+$info-second: #AFE0F5;
+
+$disabled: #888888;
+$disabled-second: #aaaaaa;
+
+$black: #303030;
+$grey: #555;
+$dark-grey: #1b1b1b;
+$gold: #FFA500;

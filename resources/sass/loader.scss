@@ -1,0 +1,46 @@
+// Fonts
+@import 'fonts';
+
+// Variables
+@import 'variables';
+
+#loader {
+  position: fixed;
+  z-index: 3000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $body-bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease 0s;
+
+  & > * {
+    margin: 0 2px;
+    animation-name: peek;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+    font-size: 24px;
+    font-family: $font-title;
+    color: $title;
+    text-shadow: -2px -2px 0 $title-border, 2px -2px 0 $title-border, -2px 2px 0 $title-border, 2px 2px 0 $title-border, 0 1px 3px $title-shadow;
+  }
+
+  &.fadeout {
+    opacity: 0;
+  }
+}
+
+@keyframes peek {
+  25% {
+    transform: rotateX(30deg) translateY(10px) rotate(-13deg);
+  }
+
+  50% {
+    transform: translateY(-12px) rotate(3deg) scale(1.1);
+  }
+}
